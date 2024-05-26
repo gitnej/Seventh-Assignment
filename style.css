@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.png);
+    background-position: center;
+    background-size: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(36, 19, 19, 0.769);
+    }
+    .wrapper nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+    background-color: rgb(3, 81, 3);
+}
+.wrapper nav ul{
+    width: 50%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+    margin: 5px;
+    }
+
+  .wrapper nav ul a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    }
+
+  .wrapper nav .logo{
+    background-color: white;
+    display: flex;
+    margin: 0 auto;  
+    height: 4rem;
+    width: 15%;
+    padding: 10px 10px 10px 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #035103;
+  }
+  .messages{
+    color: white;
+    padding: 15%;
+    text-align: center;
+  }
+
+.messages h1{
+  font-size: 70px;
+  font-weight: bolder;
+}
+.messages p{
+  font-size: 30px;
+  color: rgb(2, 127, 2);
+}
+.section{
+    height: 80vh;
+    text-align:center;
+    align-content: center;
+    background-color: rgb(46, 51, 61);
+    color: white;
+    line-height: 3rem;
+    }
+    .section a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        line-height: 2rem;
+        font-size: larger;
+        align-items: center;
+        padding: 10px;
+      }
+      a:hover{
+        color: black;
+        transition: 1s ease-in-out;
+      }
+      .section div h1{
+        font-size: 60px;
+      }
+      .section div .p-msg{
+       opacity: 0.7;
+      }
+    
+      .footer-msg{
+        border-top: 2px solid green;
+        width: 100%;
+        height: 4rem;
+        background-color: rgb(46, 51, 61);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+      }
